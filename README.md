@@ -1,9 +1,7 @@
 # CodexProxyBridge（v2.6 通用代理桥）
 
-单文件 Windows 启动器，为 Codex 桌面版提供固定的本地 TCP 代理端口 `127.0.0.1:7890`，
-并让 Codex 跳过 WebSocket，直接使用 HTTPS/SSE 传输。
-
-> v2.6 起已完全移除 GreenHub 依赖：上游改为自动发现电脑上任意一款代理软件
+为 Codex 桌面版提供固定的本地 TCP 代理端口 `127.0.0.1:7890`，并让 Codex 跳过 WebSocket，直接使用 HTTPS/SSE 传输。
+自动发现电脑上任意一款代理软件
 > （Clash Verge / Clash for Windows / V2rayN / Netch / Shadowsocks 等）的本地
 > HTTP 代理端口。全程不修改 Codex 的 `config.toml`，不切换 Provider，不接管
 > Windows 系统代理。
