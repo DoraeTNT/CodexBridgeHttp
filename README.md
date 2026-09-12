@@ -98,17 +98,3 @@
 Microsoft Store 版 Codex 位于受保护的 `WindowsApps` 中时，中转不会向应用包
 复制、执行或注入 CLI 包装程序，而是通过包 AUMID 和 `shell:AppsFolder` 激活，
 退出时精确恢复启动前内容。
-
-## 构建
-
-```powershell
-dotnet publish .\CodexProxyBridge.csproj -c Release -r win-x64 --self-contained true
-```
-
-## 备份
-
-改造前源码完整备份在：
-
-```text
-D:\项目搭建\petpal\tools\CodexProxyBridge-backup-20260908\
-```
