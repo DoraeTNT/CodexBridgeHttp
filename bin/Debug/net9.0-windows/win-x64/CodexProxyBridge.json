@@ -1,0 +1,7 @@
+{
+  "FixedPort": 7890,
+  "UpstreamPort": 0,
+  "CodexExe": "",
+  "UpstreamReadyTimeoutSeconds": 30,
+  "ForceCodexHttpTransport": false
+}

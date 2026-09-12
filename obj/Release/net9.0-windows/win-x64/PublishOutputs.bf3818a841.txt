@@ -1,0 +1,2 @@
+D:\项目搭建\petpal\tools\CodexProxyBridge\bin\Release\net9.0-windows\win-x64\publish\CodexProxyBridge.json
+D:\项目搭建\petpal\tools\CodexProxyBridge\bin\Release\net9.0-windows\win-x64\publish\CodexProxyBridge.exe
